@@ -12,7 +12,7 @@ function Hero() {
     <div className='pt-24 '>
       <div>
         {/* header start here */}
-        <header className='flex justify-between items-center'>
+        <header className='flex flex-col sm:flex-row gap-6 justify-between items-center'>
           {/* header left part */}
           <div>
             <h2 className='text-3xl font-semibold'>Extension List</h2>
